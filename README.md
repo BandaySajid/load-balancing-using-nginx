@@ -1,10 +1,9 @@
 # Load Balancing Using NGINX
 
-g
-
 In this project, there are two implementations available: one utilizes NGINX as a load balancing server and reverse proxy, while the other uses a Node.js server to distribute traffic to other servers.
 
 Run ```npm install``` first
+
 Use the `nginx.conf` which is in the root of this project, if you want to use nginx as the loadbalancer.
 
 To get started, you need to create two instances of `server.js`, one running on `PORT 9000` and the other on `PORT 9001`. You can then choose to use NGINX as the load balancing server or solely rely on the Node.js server for load balancing.
